@@ -1,0 +1,125 @@
+body{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+margin: 0;
+}
+.orange{
+    color: orange;
+}
+.top-banner{
+    display: flex;
+}
+img{
+    width: 100%;
+    margin-top: 30px;
+}
+.half-width{
+    width: 50%;
+    font-weight: 900;
+    margin-left: 80px;
+    margin-right: 50px;     
+}
+.part01{
+    margin-top: 150px;
+    font-size: 4em;
+}
+.button{
+    background-image: linear-gradient(tomato, coral);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+    
+    font-size: larger;
+    font-weight: 700;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.top-banner{
+    background-image: url(images/top-background.png);
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+}
+.middle-banner img{
+    width: 50%;
+    margin-left: 100px;
+}
+.part02{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.about-me{
+    font-size:xx-large;
+}
+.my-recipies{
+     text-align: center;
+}
+.jimmy-card{
+    width: 30%;
+    margin: 5%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 5px  grey;
+}
+.card{
+    display: flex;
+}
+.media{
+    width: 25%;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.social-media{
+    display: flex;
+    border: 1px solid white;
+    box-shadow: 5px 2px 5px 2px grey;
+    margin: 70px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.social-media h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.mapouter{
+    position: relative;
+    text-align:center;
+    height:300px;
+    width:400px;
+    margin-bottom: 150px;
+    margin-left: 33%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:350px;
+    width:450px;
+    border-radius: 25px;
+}
+.bottom-part{
+    background-color: black;
+    padding: 50px;
+    
+}
+.food{
+    color: coral;
+}
+.network{
+    color: grey;
+}
+.food-network{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
